@@ -4,6 +4,9 @@
 #ifndef l293_h
 #define l293_h
 
+/* Supplied with Arduino IDE */
+#include <SPI.h>
+
 #include <Mcp23s17.h>
 
 class L293
