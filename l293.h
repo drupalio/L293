@@ -20,11 +20,9 @@ class L293
     void strobeRight();
 
   private:
-    uint16_t m_left;
+    bool m_io_valid;
     uint8_t m_left_pin;
-    uint16_t m_right;
     uint8_t m_right_pin;
-    uint16_t m_strobe;
     uint8_t m_strobe_pin;
     uint16_t m_timeout_ms;
     MCP23S17* m_p_io;
