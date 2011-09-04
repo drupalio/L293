@@ -1,0 +1,7 @@
+This code is to drive a Peco or Horby point motor (switch machine, turnout motor) using a 
+L293 half H-bridge driven by an MCP23S17 SPI I/O expander.
+
+You will require the MCP23S17 driver (http://github.com/thejpster/Mcp23s17) and an Arduino 
+IDE that includes the SPI reference library (I used version 022).
+
+Copyright (c) Jonathan Pallant 2011. See the file LICENSE for details.
