@@ -15,9 +15,6 @@ class L293
     // Pins are numbered GPIO_A0 to GPIO_B7
     L293(MCP23S17* p_io, uint8_t strobe_pin, uint8_t left_pin, uint8_t right_pin, uint16_t timeout_ms = 250);
 
-    // Don't call this until SPI is initialised
-    void setup();
-
     // GPIO 16-bit Combined Port (GPIO A0-A7 + GPIO B0-B7)
     void strobeLeft();
     void strobeRight();
